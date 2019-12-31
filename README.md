@@ -55,7 +55,7 @@ Dans l'onglet _"Pickings Lines"_ on aura donc la liste des mouvements de stocks 
 * **Amount line** : le prix total \(Quantity \* Unit Price\) de la _picking line_ sans frais d'approche
 * **Cost amount** : les frais d'approche pour cette _picking line_
 * **Previous cost** : l'ancien prix de revient de l'article \(cf `AncienPrix`\)
-* **New cost** : le prix total d'acquisition de l'article incluant l'achat et les frais d'approches \(cf 
+* **New cost** : le prix total d'acquisition de l'article incluant l'achat et les frais d'approches \(cf `PrixAcquisition` \)
 
 Dans l'onglet _"Expenses"_ on aura la liste des frais d'approches associés à ces entrées de stock :
 
