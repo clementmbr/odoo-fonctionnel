@@ -79,10 +79,10 @@ En cliquant sur _"Calculate"_ on calcule le prix de revient de nos articles pré
 
 Il faut bien noter que la valeur du _'New cost'_ inscrite dans l'onglet _"Picking lines"_ de l'objet _'Cost distribution'_  correspond à la valeur `PrixAcquisition`  de notre calcul incluant le prix d'achat et les frais d'approches. À ne pas confondre avec le nouveau prix de revient \(pondéré\) de l'article qui sera calculé et enregistré en cliquant sur _"Update Cost"_ :
 
-\[print screen de l'historique des prix de revient avec la nouvelle valeur\]
+\[insérer print screen de l'historique des prix de revient avec la nouvelle valeur\]
 
 {% hint style="info" %}
-On pourra noter aussi que l'option _"Register Landed Costs"_  est disponible non seulement sur le bon de commande lié aux articles dont on veut actualiser le prix de revient mais **aussi sur le bon de livraison** lié à cet achat. Cette option est disponible à partir du moment où le bon de livraison est dans l'état "Prêt" ou "Terminé".
+On pourra noter aussi que l'option _"Register Landed Costs"_  est disponible non seulement sur le bon de commande lié aux articles dont on veut actualiser le prix de revient mais **aussi sur le bon de livraison** lié à cet achat. Cette option est disponible sur les deux objets à partir du moment où le bon de livraison est dans l'état "_Prêt"_ ou _"Terminé"_.
 
 En revanche, si on crée un bon de livraison sans qu'il soit lié à un bon de commande, l'option ne sera évidemment pas disponible.
 {% endhint %}
