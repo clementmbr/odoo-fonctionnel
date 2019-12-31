@@ -26,7 +26,6 @@ Le nouveau prix de revient sera calculé par une moyenne prenant en compte :
 * le prix d'achat incluant les frais d'approches de l'arrivage
 
 
-
 $$
 Nouveau Prix = \frac{(Nouveau Stock*Ancien Prix ) + Arrivage*(Prix Arrivage - Ancien Prix))}{Nouveau Stock}
 $$
