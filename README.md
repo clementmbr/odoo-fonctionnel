@@ -12,11 +12,11 @@ Le module ‘_Purchase Landed Costs_’ permet d’actualiser le prix de revient
 
 Le bouton pour accéder à l’historique du prix de revient d'un article se trouve dans l’onglet _“Information Générale”_ de la fiche article :
 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 Il permet d'afficher un historique de ce type :
 
-![](.gitbook/assets/image%20%2812%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 Grâce au module, on pourra donc calculer ce "nouveau prix de revient" grâce à une moyenne pondérée :
 
@@ -37,13 +37,13 @@ Avec :
 
 Une fois le module installé, il suffit de réaliser un achat d'un article stockable. Une fois qu'on confirme la commande et que l'option _'Must be linked to Landed Costs'_ est cochée, le bouton _"Register Landed Costs"_ apparaît :
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 ### 2. Création de l'objet _'Cost distribution'_
 
 En cliquant sur _"Register Landed Costs"_  on créé un brouillon d'un nouvel objet _'Cost distribution'_, qui associe à une ou plusieurs _pickings lines_ \(entrée de stock d'un article\), des frais d'approches que l'on choisit :
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%283%29.png)
 
 Dans l'onglet _"Pickings Lines"_ on aura donc la liste des mouvements de stocks auxquels on veut associer certains frais d'approches. On aura généralement une _picking line_ par article. Pour comprendre les colonnes, on a :
 
@@ -51,11 +51,11 @@ Dans l'onglet _"Pickings Lines"_ on aura donc la liste des mouvements de stocks 
 * **Amount line** : le prix total \(Quantity \* Unit Price\) de la _picking line_ sans frais d'approche
 * **Cost amount** : les frais d'approche pour cette _picking line_
 * **Previous cost** : l'ancien prix de revient de l'article \(cf `AncienPrix`\)
-* **New cost** : le prix total d'acquisition de l'article incluant l'achat et les frais d'approches \(cf `PrixAcquisition` \)
+* **Acquisition cost** : le prix total d'acquisition de l'article incluant l'achat et les frais d'approches \(cf `PrixAcquisition` \)
 
 Dans l'onglet _"Expenses"_ on aura la liste des frais d'approches associés à ces entrées de stock :
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 Parmi les colonnes on a :
 
@@ -71,11 +71,11 @@ Parmi les colonnes on a :
 
 En cliquant sur _"Calculate"_ on calcule le prix de revient de nos articles présents dans l'objet _'Cost distribution'_ . Il faut ensuite cliquer sur _"Update Cost"_ pour actualiser le prix de revient \(pondéré\) des articles en question.
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image%20%285%29.png)
 
-Il faut bien noter que la valeur du _'New cost'_ inscrite dans l'onglet _"Picking lines"_ de l'objet _'Cost distribution'_  correspond à la valeur `PrixAcquisition`  de notre calcul incluant le prix d'achat et les frais d'approches. À ne pas confondre avec le nouveau prix de revient \(pondéré\) de l'article qui sera calculé et enregistré en cliquant sur _"Update Cost"_ :
+Il faut bien noter que la valeur du _'Acquisition cost'_ inscrite dans l'onglet _"Picking lines"_ de l'objet _'Cost distribution'_  correspond à la valeur `PrixAcquisition`  de notre calcul incluant le prix d'achat et les frais d'approches \(123,06€ dans notre exemple\). À ne pas confondre avec le nouveau prix de revient \(pondéré\) de l'article qui sera calculé et enregistré en cliquant sur _"Update Cost"_  \(28,06€ dans notre exemple\) :
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2813%29.png)
 
 ## Configuration
 
@@ -89,13 +89,13 @@ En revanche, si on crée un bon de livraison sans qu'il soit lié à un bon de c
 
 L'option _'Must be linked to Landed Costs'_ est automatiquement pré-remplie \(bien que restant éditable\) lorsqu'on choisit le Fournisseur, suivant l'information donnée par le champ _'Products linked to Landed Costs'_ dans la fiche du Fournisseur :
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 ### Condition d'actualisation du Prix de revient
 
 Le prix de revient ne sera réellement actualisé sur un produit que si la Catégorie du Produit a une méthode de calcul de coût qui est _'Coût moyen \(AVCO\)'_ :
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 Si la méthode sélectionner est _'Prix standard'_ ou _'First in first out \(FIFO\)'_ le prix de revient ne sera pas actualisé et l'action _"Update Cost"_ n'aura aucun effet.
 
