@@ -16,7 +16,7 @@ Le bouton pour accéder à l’historique du prix de revient d'un article se tro
 
 Il permet d'afficher un historique de ce type :
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2812%29.png)
 
 Grâce au module, on pourra donc calculer ce "nouveau prix de revient" grâce à une moyenne pondérée :
 
@@ -37,17 +37,13 @@ Avec :
 
 Une fois le module installé, il suffit de réaliser un achat d'un article stockable. Une fois qu'on confirme la commande et que l'option _'Must be linked to Landed Costs'_ est cochée, le bouton _"Register Landed Costs"_ apparaît :
 
-![](.gitbook/assets/image%20%2813%29.png)
-
-On notera que l'option _'Must be linked to Landed Costs'_ est automatiquement pré-remplie \(bien que restant éditable\) lorsqu'on choisit le Fournisseur, suivant l'information donnée par le champ _'Products linked to Landed Costs'_ dans la fiche du Fournisseur :
-
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
 
 ### 2. Création de l'objet _'Cost distribution'_
 
 En cliquant sur _"Register Landed Costs"_  on créé un brouillon d'un nouvel objet _'Cost distribution'_, qui associe à une ou plusieurs _pickings lines_ \(entrée de stock d'un article\), des frais d'approches que l'on choisit :
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2813%29.png)
 
 Dans l'onglet _"Pickings Lines"_ on aura donc la liste des mouvements de stocks auxquels on veut associer certains frais d'approches. On aura généralement une _picking line_ par article. Pour comprendre les colonnes, on a :
 
@@ -59,7 +55,7 @@ Dans l'onglet _"Pickings Lines"_ on aura donc la liste des mouvements de stocks 
 
 Dans l'onglet _"Expenses"_ on aura la liste des frais d'approches associés à ces entrées de stock :
 
-![](.gitbook/assets/image%20%2812%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 Parmi les colonnes on a :
 
@@ -79,13 +75,27 @@ En cliquant sur _"Calculate"_ on calcule le prix de revient de nos articles pré
 
 Il faut bien noter que la valeur du _'New cost'_ inscrite dans l'onglet _"Picking lines"_ de l'objet _'Cost distribution'_  correspond à la valeur `PrixAcquisition`  de notre calcul incluant le prix d'achat et les frais d'approches. À ne pas confondre avec le nouveau prix de revient \(pondéré\) de l'article qui sera calculé et enregistré en cliquant sur _"Update Cost"_ :
 
-\[insérer print screen de l'historique des prix de revient avec la nouvelle valeur\]
+![](.gitbook/assets/image%20%2811%29.png)
 
-{% hint style="info" %}
-On pourra noter aussi que l'option _"Register Landed Costs"_  est disponible non seulement sur le bon de commande lié aux articles dont on veut actualiser le prix de revient mais **aussi sur le bon de livraison** lié à cet achat. Cette option est disponible sur les deux objets à partir du moment où le bon de livraison est dans l'état "_Prêt"_ ou _"Terminé"_.
+## Configuration
+
+### Bouton "Register Landed Costs"
+
+Le bouton _"Register Landed Costs"_  est disponible non seulement sur le bon de commande lié aux articles dont on veut actualiser le prix de revient mais aussi sur le bon de livraison lié à cet achat. Cette option est disponible sur les deux objets à partir du moment où le bon de livraison est dans l'état "Prêt" ou "Terminé".
 
 En revanche, si on crée un bon de livraison sans qu'il soit lié à un bon de commande, l'option ne sera évidemment pas disponible.
-{% endhint %}
 
+### Option "Must be linked to Landed Costs"
 
+L'option _'Must be linked to Landed Costs'_ est automatiquement pré-remplie \(bien que restant éditable\) lorsqu'on choisit le Fournisseur, suivant l'information donnée par le champ _'Products linked to Landed Costs'_ dans la fiche du Fournisseur :
+
+![](.gitbook/assets/image%20%289%29.png)
+
+### Condition d'actualisation du Prix de revient
+
+Le prix de revient ne sera réellement actualisé sur un produit que si la Catégorie du Produit a une méthode de calcul de coût qui est _'Coût moyen \(AVCO\)'_ :
+
+![](.gitbook/assets/image%20%288%29.png)
+
+Si la méthode sélectionner est _'Prix standard'_ ou _'First in first out \(FIFO\)'_ le prix de revient ne sera pas actualisé et l'action _"Update Cost"_ n'aura aucun effet.
 
