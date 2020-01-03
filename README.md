@@ -16,7 +16,7 @@ Le bouton pour accéder à l’historique du prix de revient d'un article se tro
 
 Il permet d'afficher un historique de ce type :
 
-![](.gitbook/assets/image%20%2814%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
 
 Grâce au module, on pourra donc calculer ce "nouveau prix de revient" grâce à une moyenne pondérée :
 
@@ -37,7 +37,7 @@ Avec :
 
 Une fois le module installé, il suffit de réaliser un achat d'un article stockable. Une fois qu'on confirme la commande et que l'option _'Must be linked to Landed Costs'_ est cochée, le bouton _"Register Landed Costs"_ apparaît :
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 ### 2. Création de l'objet _'Cost distribution'_
 
@@ -55,7 +55,7 @@ Dans l'onglet _"Pickings Lines"_ on aura donc la liste des mouvements de stocks 
 
 Dans l'onglet _"Expenses"_ on aura la liste des frais d'approches associés à ces entrées de stock :
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 Parmi les colonnes on a :
 
