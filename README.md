@@ -47,7 +47,7 @@ En cliquant sur _"Register Landed Costs"_  on créé un brouillon d'un nouvel ob
 
 Dans l'onglet _"Pickings Lines"_ on aura donc la liste des mouvements de stocks auxquels on veut associer certains frais d'approches. On aura généralement une _picking line_ par article. Pour comprendre les colonnes, on a :
 
-* **Unit Price** : le prix d'achat unitaire de l'article sur la facture fournisseur
+* **Unit Price** : Prix d'achat unitaire de l'article
 * **Amount line** : le prix total \(Quantity \* Unit Price\) de la _picking line_ sans frais d'approche
 * **Cost amount** : les frais d'approche pour cette _picking line_
 * **Previous cost** : l'ancien prix de revient de l'article \(cf `AncienPrix`\)
