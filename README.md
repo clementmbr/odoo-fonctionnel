@@ -12,11 +12,11 @@ Le module ‘_Purchase Landed Costs_’ permet d’actualiser le prix de revient
 
 Le bouton pour accéder à l’historique du prix de revient d'un article se trouve dans l’onglet _“Information Générale”_ de la fiche article :
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 Il permet d'afficher un historique de ce type :
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 Grâce au module, on pourra donc calculer ce "nouveau prix de revient" grâce à une moyenne pondérée :
 
@@ -37,13 +37,13 @@ Avec :
 
 Une fois le module installé, il suffit de réaliser un achat d'un article stockable. Une fois qu'on confirme la commande et que l'option _'Must be linked to Landed Costs'_ est cochée, le bouton _"Register Landed Costs"_ apparaît :
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](.gitbook/assets/image%20%2819%29.png)
 
 ### 2. Création de l'objet _'Cost distribution'_
 
 En cliquant sur _"Register Landed Costs"_  on créé un brouillon d'un nouvel objet _'Cost distribution'_, qui associe à une ou plusieurs _pickings lines_ \(entrée de stock d'un article\), des frais d'approches que l'on choisit :
 
-![](.gitbook/assets/image%20%283%29.png)
+![](.gitbook/assets/image%20%284%29.png)
 
 Dans l'onglet _"Pickings Lines"_ on aura donc la liste des mouvements de stocks auxquels on veut associer certains frais d'approches. On aura généralement une _picking line_ par article. Pour comprendre les colonnes, on a :
 
@@ -55,14 +55,14 @@ Dans l'onglet _"Pickings Lines"_ on aura donc la liste des mouvements de stocks 
 
 Dans l'onglet _"Expenses"_ on aura la liste des frais d'approches associés à ces entrées de stock :
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 Parmi les colonnes on a :
 
 * **Expense type** : le type de frais d'approche à appliquer. On peut les configurer dans le menu _"Costs distributions &gt; Expenses Types"_, voir en définir des "par défaut" \(qui seront présents automatiquement dans chaque nouvel objet _'Cost distribution'_\) :
 * **Calculation method** : La méthode de répartition de ce frais d'approche \(défini dans les caractéristiques de la _'Expense type'_\) parmi les _picking lines_ de notre _'Cost distribution'_. On peut répartir ce frais d'approche de différentes manières : par la quantité d'articles reçus dans chaque _picking line_, le prix des articles, leur poids...
 * **Expense amount** : La somme total du frais d'approche à répartir sur les différentes picking lines.
-* **Affected lines** : Les picking lines de notre objet 'Cost distribution' auxquelles on souhaitent affecter ce frais d'approche
+* **Affected lines** : Les picking lines de notre objet 'Cost distribution' auxquelles on souhaitent affecter ce frais d'approche \(le frais sera réparti sur toutes les lignes si laissé vide\)
 * **Supplier invoice line** : La facture associée à cette dépense de frais d'approche, à ne pas confondre avec la facture d'achat auprès du fournisseur des articles reçus.
 
 ![Configuration des Expenses types dans le menu &quot;Costs distributions &amp;gt; Expenses Types&quot; ](.gitbook/assets/image.png)
@@ -71,11 +71,11 @@ Parmi les colonnes on a :
 
 En cliquant sur _"Calculate"_ on calcule le prix de revient de nos articles présents dans l'objet _'Cost distribution'_ . Il faut ensuite cliquer sur _"Update Cost"_ pour actualiser le prix de revient \(pondéré\) des articles en question.
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%286%29.png)
 
 Il faut bien noter que la valeur du _'Acquisition cost'_ inscrite dans l'onglet _"Picking lines"_ de l'objet _'Cost distribution'_  correspond à la valeur `PrixAcquisition`  de notre calcul incluant le prix d'achat et les frais d'approches \(123,06€ dans notre exemple\). À ne pas confondre avec le nouveau prix de revient \(pondéré\) de l'article qui sera calculé et enregistré en cliquant sur _"Update Cost"_  \(28,06€ dans notre exemple\) :
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 ## Configuration
 
@@ -89,13 +89,23 @@ En revanche, si on crée un bon de livraison sans qu'il soit lié à un bon de c
 
 L'option _'Must be linked to Landed Costs'_ est automatiquement pré-remplie \(bien que restant éditable\) lorsqu'on choisit le Fournisseur, suivant l'information donnée par le champ _'Products linked to Landed Costs'_ dans la fiche du Fournisseur :
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2812%29.png)
 
 ### Condition d'actualisation du Prix de revient
 
 Le prix de revient ne sera réellement actualisé sur un produit que si la Catégorie du Produit a une méthode de calcul de coût qui est _'Coût moyen \(AVCO\)'_ :
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 Si la méthode sélectionner est _'Prix standard'_ ou _'First in first out \(FIFO\)'_ le prix de revient ne sera pas actualisé et l'action _"Update Cost"_ n'aura aucun effet.
+
+### Lier une nouvelle facture à un frais d'approche déjà renseigné
+
+On a vu qu'on pouvait lier un frais d'approche à sa facture correspondante depuis l'onglet _"Expenses"_ de l'objet _'Cost Distribution'_ :
+
+![](.gitbook/assets/image%20%282%29.png)
+
+Mais il est aussi possible de laisser cette colonne vide tant que la facture correspondante au frais d'approche n'est pas émise et associer la future facture à un frais d'approche déjà renseigné depuis l'onglet _"Landed Cost"_ de la propre future facture :
+
+
 
