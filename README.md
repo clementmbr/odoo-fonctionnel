@@ -6,7 +6,7 @@ description: >-
 
 # Purchase Landed Costs
 
-Module par Akretion :  [https://github.com/akretion/purchase-workflow/tree/12.0-purchase-landed-cost-usability/purchase\_landed\_cost](https://github.com/akretion/purchase-workflow/tree/12.0-purchase-landed-cost-usability/purchase_landed_cost)
+Module mis à jour par Akretion :  [https://github.com/akretion/purchase-workflow/tree/12.0-purchase-landed-cost-usability/purchase\_landed\_cost](https://github.com/akretion/purchase-workflow/tree/12.0-purchase-landed-cost-usability/purchase_landed_cost)
 
 ## Objectif
 
