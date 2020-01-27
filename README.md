@@ -31,7 +31,7 @@ Avec :
 * `AncienStock` la quantité d'articles en stock avant l'arrivage \(nul si négatif\)
 * `AncienPrix` l'ancien prix de revient de l'article
 * `Arrivage` la quantité d'articles de l'arrivage
-* `PrixAcquisition` le prix total d'acquisition de l'article \(_landed cost_ en anglais\) incluant l'achat et les frais d'approche.
+* `PrixAcquisition` le prix total d'acquisition de l'article \(_'landed cost'_ en anglais\) incluant le prix d'achat au fournisseur et les frais d'approche.
 
 ## Usage
 
@@ -117,7 +117,11 @@ On peut créer un Frais d'approche à partir de sa Ligne de Facture de fournisse
 
 ![](.gitbook/assets/image%20%282%29.png)
 
-Mais il est aussi possible d'ajouter un frais en laissant la colonne _'Ligne de facture fournisseur'_ vide tant que la facture correspondante au frais d'approche n'est pas émise et de le renseigner par la suite.
+Mais il est aussi possible d'ajouter un frais en laissant la colonne _'Ligne de facture fournisseur'_ vide tant que la facture correspondante au frais d'approche n'est pas émise et en le renseignant par la suite si nécessaire.
+
+On pourra retrouver l'information de ce lien entre une certaine Ligne de facture et un Frais d'approche dans l'onglet _'Frais d'approche'_ de la Facture de la Ligne de facture correspondante :
+
+
 
 
 
