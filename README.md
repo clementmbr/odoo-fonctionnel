@@ -113,11 +113,11 @@ Si la méthode sélectionner est _'Prix standard'_ ou _'First in first out \(FIF
 
 ### Lier une Facture de frais à un Frais d'approche
 
-On a vu qu'on pouvait lier un frais d'approche à sa facture correspondante depuis l'onglet _"Expenses"_ de l'objet _'Cost Distribution'_ :
+On peut créer un Frais d'approche à partir de sa Ligne de Facture de fournisseur correspondante en cliquant sur _"Importer une ligne de facture"_ puis en sélectionnant le fournisseur, la facture de ce fournisseur, la ligne de cette facture, et le type de frais que l'on veut ajouter.
 
 ![](.gitbook/assets/image%20%282%29.png)
 
-Mais il est aussi possible de laisser cette colonne vide tant que la facture correspondante au frais d'approche n'est pas émise et associer la future facture à un frais d'approche déjà renseigné depuis l'onglet _"Landed Cost"_ de la propre future facture :
+Mais il est aussi possible d'ajouter un frais en laissant la colonne _'Ligne de facture fournisseur'_ vide tant que la facture correspondante au frais d'approche n'est pas émise et de le renseigner par la suite.
 
 
 
