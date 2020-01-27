@@ -83,9 +83,9 @@ Les colonnes représentent :
 {% hint style="info" %}
 Tout comme les _'Opérations'_ de stock, les _'Factures'_ sont des objets Odoo généralement associés à des _'Bons de Commande'_ et composés de sous-objets appelés _'Lignes de facture'_.
 
-Généralement, si une 'Facture' est associée à un 'Bon de Commande', une 'Ligne de facture' sera associée à une ligne de ce 'Bon de Commande'. La Ligne de facture contiendra alors les informations relatives à la sortie d'argent liée à l'achat d'un type d'Article particulier.
+Généralement, si une _'Facture'_ est associée à un '_Bon de Commande',_ une _'Ligne de facture'_ sera associée à une ligne de ce _'Bon de Commande'_. La _'Ligne de facture'_ contiendra alors les informations relatives à la sortie d'argent liée à l'achat d'un type d'Article particulier.
 
-Voilà pourquoi il faut lier un frais d'approche à une _'Ligne de facture'_ et non une _'Facture'_ complète. Le fournisseur ayant réalisé le service du frais 
+Voilà pourquoi il faut lier un frais d'approche à une _'Ligne de facture'_ et non une _'Facture'_ complète. Le fournisseur ayant réalisé le service du frais d'approche peut avoir émis une facture incluant différents services dont un seul correspond à la dépense su frais.
 {% endhint %}
 
 ### 3. Calcul du nouveau prix de revient
