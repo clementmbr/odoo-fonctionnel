@@ -1,4 +1,6 @@
 # Table of contents
 
-* [Purchase Landed Costs](README.md)
+* [Odoo funcional](README.md)
+* [Vendas](vendas/README.md)
+  * [Lista de Preços](vendas/lista-de-precos.md)
 
