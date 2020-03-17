@@ -8,7 +8,7 @@ Se informar o campo "Posição fiscal" de um cliente :
 
 ![](../.gitbook/assets/image%20%2838%29.png)
 
-Isso permite sugerir automaticamente o "_Imposto a aplicar_" nas cotações para esse cliente \(se o produto selecionado corresponde bem ao "_Imposto no Produto_" da _Posição Fiscal_\) :
+Isso permite preencher automaticamente o "_Imposto a aplicar_" nas cotações para esse cliente \(se o produto selecionado corresponde bem ao "_Imposto no Produto_" da _Posição Fiscal_\) :
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
