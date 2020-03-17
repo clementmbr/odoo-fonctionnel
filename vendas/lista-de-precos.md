@@ -34,7 +34,7 @@ Mesmo se esse campo "Lista de Preço" e "Preço Unitário" foram preenchidos aut
 
 ## Definição das categorias de clientes
 
-Podemos definir essas "categorias de clientes" mal denominadas de "Lista de preços" embaixo da opção "_Múltiplos Preços de Venda por Produto_" nas _Configurações_ do aplicativo de Vendas :
+Podemos definir essas "categorias de clientes" mal denominadas de "Lista de preços" clicando embaixo da opção "_Múltiplos Preços de Venda por Produto_" nas _Configurações_ do aplicativo de Vendas :
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
