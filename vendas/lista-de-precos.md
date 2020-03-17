@@ -42,7 +42,7 @@ Na prática, uma "_Lista de preço_" é apenas **apenas um nome para diferenciar
 
 ![](../.gitbook/assets/image%20%2827%29.png)
 
-Enfim, cada "Lista de preço" vai ter um campo "_Grupo de país_" que, se for definido, permite preencher automaticamente a "_Lista de preço_" dos novos contatos criados com um país desse grupo :
+Enfim, cada "Lista de preço" vai ter um campo "_Grupo de países_" que, se for definido, permite preencher automaticamente a "_Lista de preço_" dos novos contatos criados com um país desse grupo :
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
