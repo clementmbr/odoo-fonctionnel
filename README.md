@@ -18,7 +18,7 @@ Le bouton pour accéder à l’historique du prix de revient d'un article se tro
 
 Il permet d'afficher un historique de ce type :
 
-![](.gitbook/assets/image%20%2837%29.png)
+![](.gitbook/assets/image%20%2838%29.png)
 
 Grâce au module, on pourra donc calculer ce "nouveau prix de revient" grâce à une moyenne pondérée :
 
@@ -124,13 +124,13 @@ Si la méthode sélectionner est _'Prix standard'_ ou _'First in first out \(FIF
 
 On peut créer un Frais d'approche à partir de sa Ligne de Facture de fournisseur correspondante en cliquant sur _"Importer une ligne de facture"_ puis en sélectionnant le fournisseur, la facture de ce fournisseur, la ligne de cette facture, et le type de frais que l'on veut ajouter.
 
-![](.gitbook/assets/image%20%2838%29.png)
+![](.gitbook/assets/image%20%2839%29.png)
 
 Mais il est aussi possible d'ajouter un frais en laissant la colonne _'Ligne de facture fournisseur'_ vide tant que la facture correspondante au frais d'approche n'est pas émise et en le renseignant par la suite si nécessaire.
 
 On pourra retrouver l'information de ce lien entre une certaine Ligne de facture et un Frais d'approche dans l'onglet _'Frais d'approche'_ de la Facture de la Ligne de facture correspondante :
 
-![](.gitbook/assets/image%20%2840%29.png)
+![](.gitbook/assets/image%20%2841%29.png)
 
 
 
