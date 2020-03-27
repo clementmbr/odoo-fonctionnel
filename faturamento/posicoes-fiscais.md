@@ -6,7 +6,7 @@ Uma _Posição Fiscal_ é uma tabela que faz a relação entre uma taxa e uma ou
 
 Se informar o campo "Posição fiscal" de um cliente :
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 Isso permite preencher automaticamente o "_Imposto a aplicar_" nas cotações para esse cliente \(se o produto selecionado corresponde bem ao "_Imposto no Produto_" da _Posição Fiscal_\) :
 
