@@ -14,11 +14,11 @@ Le module ‘_Purchase Landed Costs_’ permet d’actualiser le prix de revient
 
 Le bouton pour accéder à l’historique du prix de revient d'un article se trouve dans l’onglet _“Information Générale”_ de la fiche article :
 
-![](.gitbook/assets/image%20%2827%29.png)
+![](.gitbook/assets/image%20%2828%29.png)
 
 Il permet d'afficher un historique de ce type :
 
-![](.gitbook/assets/image%20%2838%29.png)
+![](.gitbook/assets/image%20%2839%29.png)
 
 Grâce au module, on pourra donc calculer ce "nouveau prix de revient" grâce à une moyenne pondérée :
 
@@ -39,7 +39,7 @@ Avec :
 
 Une fois le module installé, il suffit de réaliser un achat d'un article stockable. Une fois qu'on confirme la commande et que l'option _'Doit être lié à des Frais d'approche'_ est cochée, le bouton _"Enregistrer les Frais d'approche"_ apparaît :
 
-![](.gitbook/assets/image%20%2830%29.png)
+![](.gitbook/assets/image%20%2831%29.png)
 
 ### 2. Création de l'objet _'Distribution de frais d'approche'_
 
@@ -78,7 +78,7 @@ Les colonnes représentent :
 * **Mouvements concernés** : Les _'Mouvements de réception'_  correspondant aux articles auxquels on souhaitent ajouter ce frais d'approche \(le frais sera réparti sur tous les Mouvements si le champs est laissé vide\)
 * **Ligne de facture fournisseur** : La Ligne de facture associée à cette dépense de frais d'approche, à ne pas confondre avec les lignes de la Facture d'achat des articles achetés auxquels on ajoute ces frais d'approche.
 
-![Configuration des &apos;Types de Frais d&apos;approche&apos; via le menu du m&#xEA;me nom](.gitbook/assets/image%20%2828%29.png)
+![Configuration des &apos;Types de Frais d&apos;approche&apos; via le menu du m&#xEA;me nom](.gitbook/assets/image%20%2829%29.png)
 
 {% hint style="info" %}
 Tout comme les _'Opérations'_ de stock, les _'Factures'_ sont des objets Odoo généralement associés à des _'Bons de Commande'_ et composés de sous-objets appelés _'Lignes de facture'_.
@@ -116,7 +116,7 @@ L'option _'Doit être lié à des Frais d'approche'_ d'un Bon de commande est au
 
 Le prix de revient ne sera réellement actualisé sur un produit que si la Catégorie du Produit a une méthode de calcul de coût qui est _'Coût moyen \(AVCO\)'_ :
 
-![](.gitbook/assets/image%20%2829%29.png)
+![](.gitbook/assets/image%20%2830%29.png)
 
 Si la méthode sélectionner est _'Prix standard'_ ou _'First in first out \(FIFO\)'_ le prix de revient ne sera pas actualisé et l'action _"Mettre à jour le prix de revient"_ n'aura aucun effet.
 
@@ -124,13 +124,13 @@ Si la méthode sélectionner est _'Prix standard'_ ou _'First in first out \(FIF
 
 On peut créer un Frais d'approche à partir de sa Ligne de Facture de fournisseur correspondante en cliquant sur _"Importer une ligne de facture"_ puis en sélectionnant le fournisseur, la facture de ce fournisseur, la ligne de cette facture, et le type de frais que l'on veut ajouter.
 
-![](.gitbook/assets/image%20%2839%29.png)
+![](.gitbook/assets/image%20%2840%29.png)
 
 Mais il est aussi possible d'ajouter un frais en laissant la colonne _'Ligne de facture fournisseur'_ vide tant que la facture correspondante au frais d'approche n'est pas émise et en le renseignant par la suite si nécessaire.
 
 On pourra retrouver l'information de ce lien entre une certaine Ligne de facture et un Frais d'approche dans l'onglet _'Frais d'approche'_ de la Facture de la Ligne de facture correspondante :
 
-![](.gitbook/assets/image%20%2841%29.png)
+![](.gitbook/assets/image%20%2842%29.png)
 
 
 
