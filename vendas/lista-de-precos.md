@@ -40,7 +40,7 @@ Podemos definir essas "categorias de clientes" mal denominadas de "Lista de pre�
 
 Na prática, uma "_Lista de preço_" é apenas **apenas um nome para diferenciar determinados clientes ou cotações** de outros. Caso a opção _Multi-Moedas_ estiver ativada nas configurações do modulo _Faturamento_, **esse nome vai definir também a** _**Moeda**_ **de cada "preço de venda"** na aba _Vendas_ dos produtos \(e respectivamente a _Moeda_ das cotações usando essa "_Lista de preço_"\) :
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 Enfim, cada "Lista de preço" vai ter um campo "_Grupo de países_" que, se for definido, permite preencher automaticamente a "_Lista de preço_" dos novos contatos criados com um país desse grupo :
 
