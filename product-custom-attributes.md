@@ -39,8 +39,8 @@ Chaque Champ a de nombreux paramètres dont :
 * son **Type**, à choisir parmi :
   * Char _\(Texte en ligne\)_
   * Text _\(Paragraphe\)_
-  * Select _\(menu déroulant\)_
-  * Multiselect _\(choix multiple\)_
+  * Select _\(menu déroulant d'options à définir\)_
+  * Multiselect _\(choix multiple d'options à définir\)_
   * Boolean _\(case à cocher\)_
   * Date
   * Datetime _\(Date avec heure\)_
@@ -56,10 +56,6 @@ Chaque Champ a de nombreux paramètres dont :
 {% hint style="info" %}
 Les Catégories de Champs ont aussi un paramètre "_Séquence_" à définir. Cela donnera leur **ordre d'apparition dans l'onglet "**_**Attribute**_**"** de la fiche de l'Article \(pour les Articles qui ont des _Attributes_ de plusieurs Catégories différentes\).
 {% endhint %}
-
-Pour les Champs personnalisables de type "_Select_" ou "_MultiSelect_" il est possible de **sélectionner d'autres Objets Odoo** qui auraient besoin d'être reliés à certains Articles. Pour activer cette fonctionnalité, il faut que l'utilisateur ait bien l'accès aux "_Advanced Attribute Options_" \(accessible via les paramètres de l'Utilisateur, en "[mode développeur](https://www.odoo.com/documentation/user/12.0/fr/accounting/others/reporting/customize.html#activate-the-developer-mode)"\) :
-
-![](.gitbook/assets/image%20%2838%29.png)
 
 
 
