@@ -12,7 +12,7 @@ Pouvoir créer n'importe quel type de **Champs personnalisable** d'Articles \(_A
 
 En choisissant la Famille d'un article, on fait apparaître les Champs personnalisables de cet article. Ainsi un article de la Famille des 'Tables' pourra avoir des champs de dimension \(longueur, largeur, hauteur...\) qui n'apparaîtront pas dans les articles de la famille des 'Ordinateurs' :
 
-![Liste des &apos;Attributes&apos; de la famille &apos;Computer&apos;](.gitbook/assets/image%20%2827%29.png)
+![Liste des &apos;Attributes&apos; de la famille &apos;Computer&apos;](.gitbook/assets/image%20%2829%29.png)
 
 Ces Champs personnalisables sont regroupés dans des **Catégories de champs** \(_Attribute Group_\) comme _Technical_ et _General_ dans notre exemple.
 
@@ -28,11 +28,11 @@ Le module permet théoriquement la création de Champs pour d'autres objets Odoo
 
 Dans le menu _Sale_ &gt; _Configuration_ &gt; _Attributes Set_, on crée une **Famille d'Articles** :
 
-![](.gitbook/assets/image%20%2835%29.png)
+![](.gitbook/assets/image%20%2837%29.png)
 
 ...à laquelle on associe des Champs personnalisables :
 
-![](.gitbook/assets/image%20%2841%29.png)
+![](.gitbook/assets/image%20%2844%29.png)
 
 Chaque Champ a de nombreux paramètres dont :
 
