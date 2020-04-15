@@ -5,4 +5,5 @@
   * [Lista de Preços de venda](vendas/lista-de-precos.md)
 * [Faturamento](faturamento/README.md)
   * [Posições Fiscais](faturamento/posicoes-fiscais.md)
+  * [Modos de Pagamento](faturamento/modos-de-pagamento.md)
 

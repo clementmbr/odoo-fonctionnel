@@ -26,7 +26,7 @@ Esses "grupos de clientes" são \(lamentavelmente\) denominadas como "_**Lista d
 
 Isso vai preencher automaticamente o campo "Lista de Preço" de uma nova cotação para esse cliente \(e vai sugerir o preço da cotação relativo a ambos essa "Lista de Preço" e o produto vendido\) :
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 {% hint style="info" %}
 Mesmo se esse campo "Lista de Preço" e "Preço Unitário" foram preenchidos automaticamente, sempre **é possível modificar eles manualmente**.
@@ -42,7 +42,7 @@ Na prática, uma "_Lista de preço_" é apenas **apenas um nome para diferenciar
 
 Caso a opção _Multi-Moedas_ estiver ativada nas configurações do modulo _Faturamento_, **esse nome vai definir também a** _**Moeda**_ **de cada "preço de venda"** na aba _Vendas_ dos produtos \(e respectivamente a _Moeda_ das cotações usando essa "_Lista de preço_"\) :
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2836%29.png)
 
 Enfim, cada "Lista de preço" vai ter um campo "_Grupo de países_" que, se for definido, permite preencher automaticamente a "_Lista de preço_" dos novos contatos criados com um país desse grupo :
 
