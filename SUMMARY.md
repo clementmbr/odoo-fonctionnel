@@ -6,5 +6,8 @@
 * [Faturamento](faturamento/README.md)
   * [Posições Fiscais](faturamento/posicoes-fiscais.md)
   * [Modos de Pagamento](faturamento/modos-de-pagamento.md)
-* [Localização Brasileira](localizacao-brasileira.md)
+* [Localização Brasileira](localizacao-brasileira/README.md)
+  * [Fiscalidade](localizacao-brasileira/fiscalidade.md)
+  * [Pagamentos](localizacao-brasileira/pagamentos.md)
+  * [Relatório contábil](localizacao-brasileira/relatorio-contabil.md)
 
