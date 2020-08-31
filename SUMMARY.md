@@ -9,5 +9,8 @@
 * [Localização Brasileira](localizacao-brasileira/README.md)
   * [Fiscalidade](localizacao-brasileira/fiscalidade.md)
   * [Pagamentos](localizacao-brasileira/pagamentos.md)
-  * [Relatório contábil](localizacao-brasileira/relatorio-contabil.md)
+  * [Relatórios contábeis](localizacao-brasileira/relatorio-contabil.md)
+  * [Folhas de pagamento](localizacao-brasileira/folhas-de-pagamento.md)
+  * [Campos especiais](localizacao-brasileira/campos-especiais.md)
+  * [Cálculo dos custos de entrega](localizacao-brasileira/calculo-dos-custos-de-entrega.md)
 
