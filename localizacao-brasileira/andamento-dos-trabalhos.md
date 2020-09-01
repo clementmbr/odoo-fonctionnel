@@ -32,7 +32,7 @@ O coração da complexidade fiscal brasileira necessário para toda a gestão do
 **Módulo :** [l10n\_br\_account](https://github.com/OCA/l10n-brazil/tree/12.0/l10n_br_account) \| **Liderado por :** [Akretion](https://github.com/akretion)
 
 * 🟢 Importação automática dos extratos bancários no Odoo clicando num botão 2 vezes por semana.
-* 🟢 Conciliação automática entre os extratos e os lançamentos contábeis. A funcionalidade da conciliação automática é operacional, porém necessita sempre de muito trabalho de parametrização para ser adaptada com cada usuário.
+* 🟢 Conciliação automática entre os extratos e os lançamentos contábeis no Odoo. Essa funcionalidade da conciliação automática é operacional, porém necessita sempre muito trabalho de parametrização para ser adaptada com cada usuário.
 * 🔴 Sincronização em tempo real dos extratos bancários com Odoo. Essa funcionalidade envolve questões de segurança extremas que demandaria um investimento muito alto.
 
 ### Documentos fiscais
