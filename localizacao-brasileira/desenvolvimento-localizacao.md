@@ -18,9 +18,9 @@ Todos os módulos citados aqui podem ser baixados e usados livremente a partir d
 
 ## Fiscalidade
 
-### Cálculo dos Impostos
-
 **Módulo :** [l10n\_br\_fiscal](https://github.com/OCA/l10n-brazil/tree/12.0/l10n_br_fiscal) \| **Liderado por :** [Akretion](https://github.com/akretion)
+
+### Cálculo dos Impostos
 
 * 🟢 Para todos os tipos de empresas ! Simples Nacional e Normais.
 * 🟢 Registro de substituições tributárias
@@ -28,8 +28,6 @@ Todos os módulos citados aqui podem ser baixados e usados livremente a partir d
 O coração da complexidade fiscal brasileira necessário para toda a gestão dos documentos fiscais e da contabilidade ! CNAE, Perfil Fiscal, NCM, CEST, Desoneração do ICMS, Crédito do PIS/COFINS... Não falta nenhuma opção para o cálculo exato dos impostos brasileiros.
 
 ### Conciliação Bancária
-
-**Módulo :** [l10n\_br\_account](https://github.com/OCA/l10n-brazil/tree/12.0/l10n_br_account) \| **Liderado por :** [Akretion](https://github.com/akretion)
 
 * 🟢 Importação automática dos extratos bancários no Odoo clicando num botão 2 vezes por semana.
 * 🟢 Conciliação automática entre os extratos e os lançamentos contábeis no Odoo. Essa funcionalidade da conciliação automática é operacional, porém necessita sempre muito trabalho de parametrização para ser adaptada com cada usuário.
@@ -45,10 +43,12 @@ O coração da complexidade fiscal brasileira necessário para toda a gestão do
 
 ### Integração dos campos fiscais brasileiros com os outros módulos Odoo
 
-* 🟢 Integração com o módulo de venda, compra, estoque e MRP.
-* 🟡 A integração com os outros módulos ainda não está realizada, porém a arquitetura do módulo l10n\_br\_fiscal permite a realização dessas integrações muito facilmente.
+* 🟢 Integração com os módulos de venda, compra, estoque e manufatura.
+* 🟡 A integração com os outros módulos ainda não está realizada, porém a arquitetura do módulo `l10n_br_fiscal` permite a realização dessas futuras integrações muito facilmente.
 
 ## Pagamentos
+
+
 
 ## Relatórios contábeis
 
