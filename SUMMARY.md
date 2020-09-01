@@ -5,12 +5,7 @@
 
 ## 🇧🇷 Localização Brasileira <a id="localizacao-brasileira-1"></a>
 
-* [Fiscalidade](localizacao-brasileira-1/fiscalidade.md)
-* [Pagamentos](localizacao-brasileira-1/pagamentos.md)
-* [Relatórios contábeis](localizacao-brasileira-1/relatorio-contabil.md)
-* [Folhas de pagamento](localizacao-brasileira-1/folhas-de-pagamento.md)
-* [Campos especiais](localizacao-brasileira-1/campos-especiais.md)
-* [Cálculo dos custos de entrega](localizacao-brasileira-1/calculo-dos-custos-de-entrega.md)
+* [Andamento dos trabalhos](localizacao-brasileira-1/andamento-dos-trabalhos.md)
 
 ## 🧾 Faturamento
 
