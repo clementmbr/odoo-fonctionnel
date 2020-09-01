@@ -12,17 +12,12 @@
 
 * [Lista de Preços de venda](vendas-1/lista-de-precos.md)
 
----
-
-* [🇧🇷 Localização Brasileira](localizacao-brasileira/README.md)
-  * [Fiscalidade](localizacao-brasileira/fiscalidade.md)
-  * [Pagamentos](localizacao-brasileira/pagamentos.md)
-  * [Relatórios contábeis](localizacao-brasileira/relatorio-contabil.md)
-  * [Folhas de pagamento](localizacao-brasileira/folhas-de-pagamento.md)
-  * [Campos especiais](localizacao-brasileira/campos-especiais.md)
-  * [Cálculo dos custos de entrega](localizacao-brasileira/calculo-dos-custos-de-entrega.md)
-
 ## 🇧🇷 Localização Brasileira <a id="localizacao-brasileira-1"></a>
 
-* [Untitled](localizacao-brasileira-1/untitled.md)
+* [Fiscalidade](localizacao-brasileira-1/fiscalidade.md)
+* [Pagamentos](localizacao-brasileira-1/pagamentos.md)
+* [Relatórios contábeis](localizacao-brasileira-1/relatorio-contabil.md)
+* [Folhas de pagamento](localizacao-brasileira-1/folhas-de-pagamento.md)
+* [Campos especiais](localizacao-brasileira-1/campos-especiais.md)
+* [Cálculo dos custos de entrega](localizacao-brasileira-1/calculo-dos-custos-de-entrega.md)
 
