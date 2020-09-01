@@ -3,9 +3,9 @@
 * [Odoo para usuários](README.md)
 * [⬆️ Importação de dados](https://odoo-doc.gitbook.io/import/)
 
-## 🇧🇷 Localização Brasileira <a id="localizacao-brasileira-1"></a>
+## 🇧🇷 Localização Brasileira
 
-* [Andamento dos trabalhos](localizacao-brasileira-1/andamento-dos-trabalhos.md)
+* [Andamento dos trabalhos](localizacao-brasileira/andamento-dos-trabalhos.md)
 
 ## 🧾 Faturamento
 
