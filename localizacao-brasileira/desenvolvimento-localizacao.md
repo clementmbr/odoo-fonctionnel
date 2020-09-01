@@ -40,7 +40,7 @@ O coração da complexidade fiscal brasileira necessário para toda a gestão do
 * 🟢 Emissão e Importação das NF-e de remessa
 * 🟡 Emissão das NFS-e \(nota fiscal de serviço eletrônica\) compatível com a metade dos padrões NFS-e \(os mais famosos\).
 * 🔴 Importação das NFS-e não suportada por enquanto, sendo uma demanda muito rara dos usuários.
-* 🟡 Existem protótipos para 80% dos outros documentos fiscais \(MDFE, CTE...\) para necessitariam ainda um pouco de desenvolvimentos.
+* 🟡 Existem protótipos para 80% dos outros documentos fiscais \(MDFE, CTE...\) porém eles necessitariam ainda um pouco de desenvolvimentos.
 
 ### Integração dos campos fiscais brasileiros com os outros módulos Odoo
 
