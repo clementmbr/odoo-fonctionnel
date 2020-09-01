@@ -1,10 +1,8 @@
----
-description: Funcionalidades do ERP Odoo para o Brasil
----
-
 # Odoo para usuários
 
-Documentação complementária desenvolvida pela [Akretion](https://akretion.com/pt-BR).
+Documentação complementária sobre  as funcionalidades do software de gestão empresarial [Odoo](https://odoo.com).
 
-\[Em construção\]
+ Escrito por [Akretion](https://akretion.com/pt-BR), líder do desenvolvimento do Odoo para o Brasil.
+
+_\[Em construção\]_
 
