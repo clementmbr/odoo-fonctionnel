@@ -5,7 +5,7 @@
 
 ## 🇧🇷 Localização Brasileira
 
-* [Andamento dos trabalhos](localizacao-brasileira/andamento-dos-trabalhos.md)
+* [Desenvolvimento da localização BR](localizacao-brasileira/andamento-dos-trabalhos.md)
 
 ## 🧾 Faturamento
 

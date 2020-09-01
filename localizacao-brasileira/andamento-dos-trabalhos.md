@@ -2,7 +2,7 @@
 description: Atualizado em novembro de 2020.
 ---
 
-# Andamento dos trabalhos
+# Desenvolvimento da localização BR
 
 Desde 2009, a [Akretion](https://github.com/akretion) está liderando a [comunidade de desenvolvedores brasileiros](https://github.com/OCA/l10n-brazil/graphs/contributors) que adaptam o software Odoo de maneira livre e colaborativa à complexidade da realidade brasileira.
 
