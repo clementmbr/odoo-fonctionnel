@@ -1,10 +1,10 @@
 ---
-description: Atualizado em novembro de 2020.
+description: Situação em setembro de 2020
 ---
 
 # Desenvolvimento da localização
 
-Desde 2009, a [Akretion](https://github.com/akretion) está liderando a [comunidade de desenvolvedores brasileiros](https://github.com/OCA/l10n-brazil/graphs/contributors) que adaptam o software Odoo de maneira livre e colaborativa à complexidade da realidade brasileira.
+Desde 2009, a [Akretion](https://github.com/akretion) está liderando a [comunidade dos desenvolvedores brasileiros](https://github.com/OCA/l10n-brazil/graphs/contributors) que adaptam o software Odoo de maneira livre e colaborativa à complexidade da realidade brasileira.
 
 Tentamos resumir aqui o andamento atual desse imenso trabalho listando :
 
@@ -38,8 +38,9 @@ O coração da complexidade fiscal brasileira necessário para toda a gestão do
 * 🟢 Arquitetura pensada para receber teoricamente qualquer tipo de campo fiscal para a construção de qualquer documento fiscal
 * 🟢 Emissão e Importação das NF-e de produtos
 * 🟢 Emissão e Importação das NF-e de remessa
-* 🟡 50% das NF-e de serviço
-* 🟡 80% dos outros documentos fiscais \(MDFE, CTE...\)
+* 🟡 Emissão das NFS-e \(nota fiscal de serviço eletrônica\) compatível com a metade dos padrões NFS-e \(os mais famosos\).
+* 🔴 Importação das NFS-e não suportada por enquanto, sendo uma demanda muito rara dos usuários.
+* 🟡 Existem protótipos para 80% dos outros documentos fiscais \(MDFE, CTE...\) para necessitariam ainda um pouco de desenvolvimentos.
 
 ### Integração dos campos fiscais brasileiros com os outros módulos Odoo
 
@@ -50,8 +51,7 @@ O coração da complexidade fiscal brasileira necessário para toda a gestão do
 
 ### Boleto e CNAB de recebimento
 
-
-
+* 
 
 
 ## Relatórios contábeis
