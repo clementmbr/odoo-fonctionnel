@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Odoo para usuários](README.md)
-* [⬆️ Importação de dados](https://odoo-doc.gitbook.io/import/)
 
 ## 🇧🇷 Localização Brasileira
 
