@@ -36,10 +36,10 @@ O coração da complexidade fiscal brasileira necessário para toda a gestão do
 ### Documentos fiscais
 
 * 🟢 Arquitetura pensada para receber teoricamente qualquer tipo de campo fiscal para a construção de qualquer documento fiscal
-* 🟢 Emissão e Importação das NF-e de produtos
-* 🟢 Emissão e Importação das NF-e de remessa
+* 🟢 Emissão e Importação no Odoo das NF-e de produtos
+* 🟢 Emissão e Importação no Odoo das NF-e de remessa
 * 🟡 Emissão das NFS-e \(nota fiscal de serviço eletrônica\) compatível com a metade dos padrões NFS-e \(os mais famosos\).
-* 🔴 Importação das NFS-e não suportada por enquanto, sendo uma demanda muito rara dos usuários.
+* 🔴 Importação das NFS-e no Odoo não suportada por enquanto, sendo uma demanda muito rara dos usuários.
 * 🟡 Existem protótipos para 80% dos outros documentos fiscais \(MDFE, CTE...\) porém eles necessitariam ainda um pouco de desenvolvimentos.
 
 ### Integração dos campos fiscais brasileiros com os outros módulos Odoo
@@ -56,10 +56,13 @@ O coração da complexidade fiscal brasileira necessário para toda a gestão do
 
 ## Pagamentos
 
-### Boleto e CNAB de recebimento
+### Boleto e arquivos CNAB de recebimento
 
-* 🟢 Impressão de Boleto de Pagamento registrado e do arquivo de remessa CNAB \(240 ou 400\)
-* 🟡 Gestão do arquivo de retorno
+* 🟡 Geração de Boleto de Pagamento registrado e do arquivo de remessa CNAB \(240 ou 400\) para avisar o banco da criação do Boleto
+* 🟡 Gestão do arquivo de retorno do Banco.
+* 🟡 Gestão dos arquivos CNAB de pagamento.
+
+
 
 
 
