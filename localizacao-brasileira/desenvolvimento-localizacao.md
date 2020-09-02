@@ -45,13 +45,22 @@ O coração da complexidade fiscal brasileira necessário para toda a gestão do
 ### Integração dos campos fiscais brasileiros com os outros módulos Odoo
 
 * 🟢 Integração com os módulos de venda, compra, estoque e manufatura.
-* 🟡 A integração com os outros módulos ainda não está realizada, porém a arquitetura do módulo `l10n_br_fiscal` permite a realização dessas futuras integrações muito facilmente.
+* 🟡 A integração com os outros módulos ainda não está realizada, porém a arquitetura do módulo [l10n\_br\_fiscal](https://github.com/OCA/l10n-brazil/tree/12.0/l10n_br_fiscal) permite a realização dessas futuras integrações muito facilmente.
+
+### SPED : declarações tributárias e fiscais
+
+**Módulo :** [sped-extractor](https://github.com/akretion/sped-extractor) \| **Liderado por :** [Akretion](https://github.com/akretion)
+
+* 🟡 A Akretion desenvolveu o programa [sped-extractor](https://github.com/akretion/sped-extractor) que recupere automaticamente os milhões de campos \(dados pelos manuais em pdf da SPED\) que têm que ser preenchidos para as suas declarações tributárias e fiscais. Porém esse módulo ainda não foi usado em produção.
+* 🔴 Uma vez esse programa completado precisará ainda de desenvolvimentos para gerar e mandar as declarações da SPED direitamente a partir de Odoo.
 
 ## Pagamentos
 
 ### Boleto e CNAB de recebimento
 
-* 
+* 🟢 Impressão de Boleto de Pagamento registrado e do arquivo de remessa CNAB \(240 ou 400\)
+* 🟡 Gestão do arquivo de retorno
+
 
 
 ## Relatórios contábeis
