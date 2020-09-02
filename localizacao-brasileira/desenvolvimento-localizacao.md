@@ -56,7 +56,7 @@ O coração da complexidade fiscal brasileira necessário para toda a gestão do
 
 ## Pagamentos
 
-### Boleto e arquivos CNAB de recebimento
+### Boleto e arquivos CNAB de recebimento e pagamento
 
 * 🟡 Geração de Boleto de Pagamento registrado e do arquivo de remessa CNAB \(240 ou 400\) para avisar o banco da criação do Boleto
 * 🟡 Gestão do arquivo de retorno do Banco.
